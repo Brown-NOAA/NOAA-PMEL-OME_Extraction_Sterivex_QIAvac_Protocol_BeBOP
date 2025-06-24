@@ -12,7 +12,7 @@ target: deoxyribonucleic acid (DNA) [NCIT:C449]
 creator: Shannon Brown and Han Weinrich
 materials_required: vortexer [OBI:0400118], centrifuge [OBI:0400106], incubator [OBI:0000136]
 skills_required: sterile technique, pipetting skills, standard molecular technique
-time_required: 	360
+time_required: 	420
 personnel_required: 1
 language: en
 issued:	2025-06-27
@@ -62,10 +62,9 @@ nucl_acid_ext_method_additional: not applicable
 
 | PREPARED BY All authors known to have contributed to the preparation of this protocol, including those who filled in the template.  | AFFILIATION | ORCID (visit https://orcid.org/ to register) | DATE |
 | ------------- | ------------- | ------------- | ------------- |
-| Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0000-0001-9808-2638 |2024-02-02|
-| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0007-6063-0986 |2024-02-02|
-|Sean McAllister	|Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|0000-0001-6654-3495	|2024-02-02|
-|Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|	0000-0002-4257-0170	|2024-02-02|
+| Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0000-0001-9808-2638 |2024-03-01|
+| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0007-6063-0986 |2024-03-01|
+| Sam Setta |Ocean Molecular Ecology, NOAA PMEL	| <https://orcid.org/0000-0001-9075-7573>|2024-03-01|
 
 ### Related Protocols
 
@@ -119,7 +118,7 @@ nucl_acid_ext_method_additional: not applicable
 
 ## BACKGROUND
 
-This document describes the required protocol to extract DNA from a sterivex filter using a QIAVac 24 Plus. This protocol was introduced to our repertoire because the QIAVac 24 Plus reduces the processing time by 1-2 hours; however, we've only used this protocol for a small subset of samples due to issues encountered with QIAVac cleaning and contamination.
+This document describes the required protocol to extract DNA from a sterivex filter using a QIAVac 24 Plus. This protocol was introduced to our repertoire because the QIAVac 24 Plus reduces the processing time by 1-1.5 hours; however, we've only used this protocol for a small subset of samples due to issues encountered with QIAVac cleaning and contamination.
 
 ### Summary
 
