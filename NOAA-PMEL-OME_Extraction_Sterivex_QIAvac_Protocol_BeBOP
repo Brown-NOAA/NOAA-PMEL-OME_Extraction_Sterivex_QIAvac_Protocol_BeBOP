@@ -87,13 +87,13 @@ nucl_acid_ext_method_additional: not applicable
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | 2024-06-24 | Initial release |
+| 1.0.0 | 2025-06-24 | Initial release |
 
 ### Acronyms and Abbreviations
 
 | ACRONYM / ABBREVIATION | DEFINITION |
 | ------------- | ------------- |
-|BSC	|Biosafety cabinent |
+|BSC	|Biosafety cabinet |
 |CICOES| Cooperative Institute for Climate, Ocean, and Ecosystem Studies|
 |DNA	|Deoxyribonucleic acid|
 |eDNA	|environmental DNA|
@@ -104,7 +104,7 @@ nucl_acid_ext_method_additional: not applicable
 |PMEL	|Pacific Marine Environmental Laboratory|
 |PPE    | Personal protective equipment |
 |UV| Ultraviolet|
-|UW| University of Washington
+|UW| University of Washington|
 
 ### Glossary
 
@@ -122,12 +122,12 @@ This document describes the required protocol to extract DNA from a sterivex fil
 
 ### Summary
 
-Nucleic acids extraction from the sterivex filters using the Qiagen DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol. These extraction protocols, adapted from [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683), are used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
+Nucleic acids extraction from sterivex filters using the Qiagen DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol. These extraction protocols, adapted from [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683), are used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
 
 
 ### Method Description and Rationale
 
-The [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683) protocol is a widely used, highly reproducible, and easily executeable DNA extraction protocol from Sterivex filters. Sterivex filters are a commonly used filter for seawater sampling including by the [PMEL Ocean Molecular Ecology Program](https://www.pmel.noaa.gov/ocean-molecular-ecology/) and the [NOAA CalCOFI Ocean Genomics](https://calcofi.com/index.php?option=com_content&view=category&layout=blog&id=234&Itemid=1142) group. This extraction protocol from sterivex samples has been demonstrated to generate sufficient DNA yields while minimizing contamination (Spens et al. 2017, Shea et al. 2023).
+The [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683) protocol is a widely used, highly reproducible, and easily executeable DNA extraction protocol from Sterivex filters. Sterivex filters are a commonly used filter for seawater sampling including by the [PMEL Ocean Molecular Ecology Program](https://www.pmel.noaa.gov/ocean-molecular-ecology/) and the [NOAA CalCOFI Ocean Genomics](https://calcofi.com/index.php?option=com_content&view=category&layout=blog&id=234&Itemid=1142) group. This extraction protocol from sterivex samples has been demonstrated to generate sufficient DNA yields while minimizing contamination (Spens et al. 2017), though the additional modification of utilizing the QIAvac instead of a centrifuge for some steps increased contamination risk.
 
 
 ### Spatial Coverage and Environment(s) of Relevance
@@ -198,8 +198,8 @@ For full extraction set, including 23 eDNA samples and a field blank:
 |Trash bags for BSC|Teivio 1.2 Gallon 360 Counts Strong Trash Bags|Teivio|3|Can be substituted with generic.|
 | **QIAGEN Extraction Kit** | Qiagen DNeasy Blood and Tissue Kit - 250 extractions | QIAGEN | 1 | For this protocol at scale (i.e., 250 samples), additional volumes of some buffers need to be purchased.|
 | *QIAGEN kit consumables* |  |  |  |  |
-| Spin columns | Mini spin column | **Included in kit** | 24 | Kit contains 250 columns - sufficient for 250 extractions using this protocol) |
-| Collection tubes | 2 mL collection tube | **Included in kit**| 48 | Kit contains 500 tubes - sufficient for 250 extractions using this protocol) |
+| Spin columns | Mini spin column | **Included in kit** | 24 | Kit contains 250 columns - sufficient for 250 extractions using this protocol |
+| Collection tubes | 2 mL collection tube | **Included in kit**| 48 | Kit contains 500 tubes |
 | *QIAGEN kit chemicals* |  |  |  |  |
 | Buffer ATL | QIAGEN Buffer ATL | **Included in kit, may need to purchase additional** | 17.28 mL | Kit contains 50 mL  - sufficient for 69 extractions using this protocol; require 200 mL total for 250 extractions. |
 | Proteinase K | Qiagen Proteinase K | **Included in kit, may need to purchase additional** | 1920  μL  | Kit contains 6 mL - sufficient for 75 extractions using this protocol; require 20 mL total for 250 extractions. |
@@ -223,10 +223,10 @@ To minimize risk of sample contamination, this protocol should be carried out in
 1. Run UV light for 30 minutes in BioSafety II cabinet (BSC) and room, if not run since last use.
 2. Sterilize workspaces and durable equipment, including pipettes and QIAVac within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes.
 4. Set up two 50 mL tube racks, one for sterivex and one for syringes, within the BSC by lining the bottom of the rack with kimwipes then turn on the UV light for 30 minutes to sterilize.
-5. Set up QIAVac 24 Plus manifold
-6. Turn on the heatshaker to 56°C. If the Buffer ATL has percipitate, place in heatshaker. Allow the buffer to heat until all percipitate is gone (~15 minutes), swirl as needed.
+5. Set up QIAVac 24 Plus manifold, ensuring that the QIAvac is dry inside before use
+6. Turn on the heatshaker to 56°C. If the Buffer ATL has precipitate, place in heatshaker. Allow the buffer to heat until all precipitate is gone (~15 minutes), swirl as needed.
 7. Aliquot ~25 mL of 100% EtOH into a 50 mL falcon tube and store at -20°C freezer for later use.
-8. Ensure 100% molecular grade EtOH has been added to Buffer AW1 and AW2 according to the Qiagen DNeasy Blood and Tissue Kit manufactorer instructions. 
+8. Ensure 100% molecular grade EtOH has been added to Buffer AW1 and AW2 according to the Qiagen DNeasy Blood and Tissue Kit manufacturer instructions. 
 
 **Recommended (not required)**: Aliquot Buffer AW1 and AW2 into 50 mL falcon tubes to reduce contamination caused by repeated use of large volume bottles.
 
@@ -237,7 +237,7 @@ To minimize risk of sample contamination, this protocol should be carried out in
 3.  Use the saved outlet cap to seal the syringe, label it with the corresponding sample number, and place it in the other 50 mL tube rack with kimwipes.
 4. After liquid has been removed from all 24 sterivex, tap filters on separate small kimwipe to remove excess liquid post-drying. Dispose of this kimwipe and sterilize the BSC surface.
 6. Once excess ethanol has evaporated (around 30-45 minutes), reseal 4-12 sterivex at a time with their corresponding outlet cap, which is currently on the labeled 5 mL luer lock syringe. Syringes can be placed back on the 50 mL tube rack with no cap. Use a 4-way tube rack to hold sterivex for the next step.
-7. Add 720 µL Buffer ATL (pre-heated if percipitate was present) and 80 µL Proteinase K to each sterivex with the 1000 μL and 200 μL pipettes, respectively. Pipet solution between the outside of the filter and the capsule walls. Close with a new inlet cap. Handshake vigorously and/or vortex sideways.
+7. Add 720 µL Buffer ATL (pre-heated if precipitate was present) and 80 µL Proteinase K to each sterivex with the 1000 μL and 200 μL pipettes, respectively. Pipet solution between the outside of the filter and the capsule walls. Close with a new inlet cap. Handshake vigorously and/or vortex sideways.
 8. Add this batch of sterivex to the heatshaker, and complete Step 2-3 for remaining sterivex. Turn on the shaking function to 650 rpm.
 9. Incubate sterivex at 56°C for 2-3 hours. Rotate filter capsules 3-4x during incubation to ensure the entire filter surface is submerged in solution.
 10. Once all samples are removed from the BSC and inside the heatshaker, wipe down work surfaces with 10% bleach followed by 70% EtOH. Run the UV light inside the BSC for 30 minutes before samples are finished incubating.
@@ -248,18 +248,21 @@ To minimize risk of sample contamination, this protocol should be carried out in
 11. Then, remove ALL the liquid from the inlet end of the sterivex using the corresponding 5 mL luer lock syringe. Transfer to a labeled 5 mL tube. Dispose of syringe and caps. 
 12. Visually estimate the volume of the sample using the 5 mL tube markings. Record these values in lab notebook.
 13. Add Buffer AL and ice-cold 100% EtOH (i.e., aliquot you stored in the -20°C freezer) to the sample in equal volumes. Sample:Buffer:Ethanol = 1:1:1. Vortex vigorously 10-15 seconds.
-14. Pipet the mixture (max 640 µL) into a spin columns in a 2 mL collection tube provided by the DNeasy Blood and Tissue kit. 
-15. Spin in the centrifuge at 6000 ∗ g for 1 min. Discard flow through. Tap collection tubes on a kimwipe to remove droplets before replacing column in collection tube.
-16. Repeat steps 14-15 until the full samples volume is filtered through each spin column (takes 4-5x).
-17. Move Buffer AE to heatshaker set at 56°C to preheat for final elution. Shaking function should be turned off. 
-18. Place the spin column in a new 2 ml collection tube, add 500 µl Buffer AW1, and centrifuge for 1 min at 6000 ∗ g. 
-19. Discard flow-through and collection tube. Place the spin column in a new 2 ml collection tube, add 500 µl Buffer AW2, and centrifuge for 3.5 min at 20,000 ∗ g. 
+14. Attach VacValves to the ports on the top of the QIAvac, then attach sterile VacConnectors to the VacValves.
+15. Remove clean spin columns provided by the DNeasy Blood and Tissue kit from their collection tubes and set tubes aside for later use. Attach the spin column to the VacConnector.
+16. With all the valves closed, connect the QIAvac to the waste container and vacuum pump via 3/8" tubing and turn on the vacuum pump. Pressure should be at least -0.8 bars when the QIAvac VacValves are completely closed and at least -0.6 bars when running samples.
+17. Pipet the EtOH + buffer AL + sample mixture (max 640 µL) into a spin column. Leave the lid of the sample open.
+18. Turn the VacValve to open and allow the sample to pull through the spin column. Turn off the valve once the sample pulls through completely. Multiple samples can be vacuumed at the same time, but ensure that the pressure remains at least -0.6 bars
+19. Repeat steps 17-18 until the full sample volume is filtered through each spin column (takes 4-5x).
+20. Move Buffer AE to heatshaker set at 56°C to preheat for final elution. Shaking function should be turned off. 
+21. Add 500 µl Buffer AW1 to each sample and vacuum to remove liquid.
+22. Remove the spin column from the QIAvac and place in the previously saved 2 ml collection tube, add 500 µl Buffer AW2, and centrifuge for 3.5 min at 20,000 ∗ g. 
 
 **Note**: If there is liquid between spin column and collection tube, or if the membrane touches the filtrate, move to a new collection tube and respin the sample. Record in lab notebook.
 
-17. Discard flow-through and collection tube. Transfer spin column to a new, labeled 1.5 mL tube with the cap open.
-18. Add 50 µl pre-heated Buffer AE onto spin column membrane. Incubate for 5 min and then centrifuge for 1 min at 6,000 ∗ g. Without discarding flow-through, repeat with another 50 µl Buffer AE, and centrifuge. Discard the spin column, as your extract is now in the 1.5 mL tube.
-19. Place extracted DNA tubes into a labeled cryobox and store in a -20°C freezer until later use. Preferably, set aside an aliquot for long term and backup storage to be archived in a -80°C freezer (see quality control for more information)
+23. Discard flow-through and collection tube. Transfer spin column to a new, labeled 1.5 mL tube with the cap open.
+24. Add 50 µl pre-heated Buffer AE onto spin column membrane. Incubate for 5 min and then centrifuge for 1 min at 6,000 ∗ g. Without discarding flow-through, repeat with another 50 µl Buffer AE, and centrifuge. Discard the spin column, as your extract is now in the 1.5 mL tube.
+25. Place extracted DNA tubes into a labeled cryobox and store in a -20°C freezer until later use. Preferably, set aside an aliquot for long term and backup storage to be archived in a -80°C freezer (see quality control for more information)
 
 **Note:** Tubes containing DNA aliquots should be labeled on both the top and side with at least the sample number. OME also labels the sides of storage tubes with the cruise number and date of extraction. 
 
@@ -273,7 +276,7 @@ A negative control (field blank or extraction blank) is included in every 24 set
 
 **Issue 1:** Column clogging when pipetting sample/Buffer AL/EtOH mixture to spin columns
 
-**Solution:** If a sample is turbid, solids may survive the digestion and lysis steps. These solids can clog the spin column and trap liquid above the filter. If repeating the spin down step does not fully drain liquid from the column, use a second fresh column for the remainder of the sample. Both spin columns are then run through the protocol and the eluted DNA is combined.
+**Solution:** If a sample is turbid, solids may survive the digestion and lysis steps. These solids can clog the spin column and trap liquid above the filter. If repeating the spin down or vacuum step does not fully drain liquid from the column, use a second fresh column for the remainder of the sample. Both spin columns are then run through the protocol and the eluted DNA is combined.
 
 **Issue 2:** Bubbling of ATL out of sterivex upon addition
 
