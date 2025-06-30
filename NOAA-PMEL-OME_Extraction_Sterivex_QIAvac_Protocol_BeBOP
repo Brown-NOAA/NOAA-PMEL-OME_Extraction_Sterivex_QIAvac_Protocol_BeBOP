@@ -17,7 +17,7 @@ personnel_required: 1
 language: en
 issued:	2025-06-27
 audience: scientists
-publisher:	NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
 license: CC0 1.0 Universal
 maturity level: mature
@@ -140,7 +140,7 @@ One person with molecular biology experience.
 
 ### Safety
 
-Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. For other reagents, standard precautions including wearing PPE should be taken to avoid skin and eye exposure to chemicals.
+Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. For other reagents, standard precautions including wearing PPE should be taken to avoid skin and eye exposure to chemicals. When cleaning the QIAVac, ensure that bleach is not used on the interior surfaces until it has been thoroughly flushed with water to avoid creating hydrogen cyanide gas with waste residue.
 
 ### Training Requirements
 
@@ -221,7 +221,7 @@ To minimize risk of sample contamination, this protocol should be carried out in
 ### Before DNA Extraction
 
 1. Run UV light for 30 minutes in BioSafety II cabinet (BSC) and room, if not run since last use.
-2. Sterilize workspaces and durable equipment, including pipettes and QIAVac within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes.
+2. Sterilize workspaces and durable equipment, including pipettes and QIAVac exterior within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. The interior of the QIAVac should be flushed with water and then sterilized with bleach and RO water every ~10 extraction sets to avoid buildup of buffers.
 4. Set up two 50 mL tube racks, one for sterivex and one for syringes, within the BSC by lining the bottom of the rack with kimwipes then turn on the UV light for 30 minutes to sterilize.
 5. Set up QIAVac 24 Plus manifold, ensuring that the QIAvac is dry inside before use
 6. Turn on the heatshaker to 56°C. If the Buffer ATL has precipitate, place in heatshaker. Allow the buffer to heat until all precipitate is gone (~15 minutes), swirl as needed.
