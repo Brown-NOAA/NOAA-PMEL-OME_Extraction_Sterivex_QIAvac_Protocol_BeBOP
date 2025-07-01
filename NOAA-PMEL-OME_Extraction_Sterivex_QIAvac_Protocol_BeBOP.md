@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 	420
 personnel_required: 1
 language: en
-issued:	2025-06-27
+issued:	2025-06-02
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -27,7 +27,7 @@ samp_vol_we_dna_ext: 1000
 samp_vol_we_dna_ext_unit: mL
 nucl_acid_ext_lysis: enzymatic | thermal
 nucl_acid_ext_sep: column-based
-nucl_acid_ext: https://doi.org/10.1111/2041-210X.12683
+nucl_acid_ext:
 nucl_acid_ext_kit: Qiagen DNeasy Blood and Tissue Kit, 250
 nucl_acid_ext_modify: Modified for sterivex with QIAvac 24 Plus, reagent volume altered
 dna_cleanup_0_1: 0
@@ -71,7 +71,7 @@ nucl_acid_ext_method_additional: not applicable
 - This section contains protocols that should be known to users of this protocol.
 - Include the link to each protocol.
 - Include the version number and release date (if available).
-- Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protcols from manufacturers or other groups.
+- Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protocols from manufacturers or other groups.
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
@@ -87,7 +87,7 @@ nucl_acid_ext_method_additional: not applicable
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | 2025-06-24 | Initial release |
+| 1.0.0 | 2025-07-02 | Initial release |
 
 ### Acronyms and Abbreviations
 
@@ -102,7 +102,8 @@ nucl_acid_ext_method_additional: not applicable
 |OME	|Ocean Molecular Ecology|
 |PCR| Polymerase chain reaction |
 |PMEL	|Pacific Marine Environmental Laboratory|
-|PPE    | Personal protective equipment |
+|PPE| Personal protective equipment |
+|RO| Reverse Osmosis|
 |UV| Ultraviolet|
 |UW| University of Washington|
 
@@ -111,28 +112,28 @@ nucl_acid_ext_method_additional: not applicable
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
 | Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step.  |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
+| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like a seawater eDNA sample to control for contamination in the field sampling step.  |
 | No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
 | Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
 
 ## BACKGROUND
 
-This document describes the required protocol to extract DNA from a sterivex filter using a QIAVac 24 Plus. This protocol was introduced to our repertoire because the QIAVac 24 Plus reduces the processing time by 1-1.5 hours; however, we've only used this protocol for a small subset of samples due to issues encountered with QIAVac cleaning and contamination.
+This document describes the required protocol to extract DNA from a sterivex filter using a QIAvac 24 Plus. This protocol was introduced to our repertoire because the QIAvac 24 Plus reduces the processing time by 1-1.5 hours; however, we've only used this protocol for a small subset of samples due to issues encountered with QIAvac cleaning and contamination.
 
 ### Summary
 
-Nucleic acids extraction from sterivex filters using the Qiagen DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol. These extraction protocols, adapted from [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683), are used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
+Nucleic acid extraction from sterivex filters using the Qiagen DNeasy Blood and Tissue Kit with some modifications to the manufacturer’s protocol. These extraction protocols, adapted from [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683), are used by the NOAA PMEL Ocean Molecular Ecology (OME) Group.
 
 
 ### Method Description and Rationale
 
-The [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683) protocol is a widely used, highly reproducible, and easily executeable DNA extraction protocol from Sterivex filters. Sterivex filters are a commonly used filter for seawater sampling including by the [PMEL Ocean Molecular Ecology Program](https://www.pmel.noaa.gov/ocean-molecular-ecology/) and the [NOAA CalCOFI Ocean Genomics](https://calcofi.com/index.php?option=com_content&view=category&layout=blog&id=234&Itemid=1142) group. This extraction protocol from sterivex samples has been demonstrated to generate sufficient DNA yields while minimizing contamination (Spens et al. 2017), though the additional modification of utilizing the QIAvac instead of a centrifuge for some steps increased contamination risk.
+The [Spens et al 2017](https://doi.org/10.1111/2041-210X.12683) protocol is a widely used, highly reproducible, and easily executable DNA extraction protocol from Sterivex filters. Sterivex filters are a commonly used filter for seawater sampling, including by the [PMEL Ocean Molecular Ecology Program](https://www.pmel.noaa.gov/ocean-molecular-ecology/) and the [NOAA CalCOFI Ocean Genomics](https://calcofi.com/index.php?option=com_content&view=category&layout=blog&id=234&Itemid=1142) group. This extraction protocol from sterivex samples has been demonstrated to generate sufficient DNA yields while minimizing contamination (Spens et al. 2017), though the additional modification of utilizing the QIAvac instead of a centrifuge for some steps increased contamination risk.
 
 
 ### Spatial Coverage and Environment(s) of Relevance
 
-This modified protocol has been used to extract DNA from hundreds of filtered sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
+This modified protocol has been used to extract DNA from hundreds of filtered seawater samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf).
 
 ### Personnel Required
 
@@ -140,7 +141,7 @@ One person with molecular biology experience.
 
 ### Safety
 
-Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. For other reagents, standard precautions including wearing PPE should be taken to avoid skin and eye exposure to chemicals. When cleaning the QIAVac, ensure that bleach is not used on the interior surfaces until it has been thoroughly flushed with water to avoid creating hydrogen cyanide gas with waste residue.
+Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. For other reagents, standard precautions, including wearing PPE, should be taken to avoid skin and eye exposure to chemicals. When cleaning the QIAvac, ensure that bleach is not used on the interior surfaces until it has been thoroughly flushed with water to avoid creating hydrogen cyanide gas with waste residue.
 
 ### Training Requirements
 
@@ -148,7 +149,7 @@ Molecular biology training (including, at a minimum, sterile technique, pipettin
 
 ### Time Required to Execute the Procedure
 
-Extracting DNA from 24 sterivex samples, including a field blank, takes 6 hours (360 minutes) including incubation time. 
+Extracting DNA from 24 sterivex samples, including a field blank, takes 6 hours (360 minutes), including incubation time. 
 
 ## EQUIPMENT
 
@@ -156,9 +157,9 @@ Extracting DNA from 24 sterivex samples, including a field blank, takes 6 hours 
 - Product Name and Model: Provide the official name of the product.
 - Manufacturer: Provide the name of the manufacturer of the product.
 - Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
-- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
+- Remark: For example, some of the consumables may need to be sterilized, some commercial solutions may need to be diluted or shielded from light during the operating procedure.
 
-For full extraction set, including 23 eDNA samples and a field blank:
+For a full extraction set, including 23 eDNA samples and a field blank:
 
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
@@ -168,11 +169,11 @@ For full extraction set, including 23 eDNA samples and a field blank:
 | Centrifuge | Eppendorf 5425 R  | Fisher Scientific | 1 | Can be substituted with generic - needs to fit 1.5 mL tubes. |
 | Vortex | Analog vortex mixer | Fisher Scientific | 1 | Can be substituted with generic. |
 | UV crosslinker | UV crosslinker AH (115V), 234100 | Boekel Scientific  | 1 | Recommended not required; can be substituted. |
-| QIAVac 24 Plus | QIAvac Vacuum Manifold | QIAGEN  | 1 | 
-| VacValves | Valves for use with the QIAvac 24 Plus | QIAGEN | 24 | Must be compatable with QIAVac 24 Plus |
-| VacConnectors | Connectors for use with the QIAvac 24 Plus | QIAGEN | 24 | Must be compatable with QIAVac 24 Plus; reusable if sterilized between use |
+| QIAvac 24 Plus | QIAvac Vacuum Manifold | QIAGEN  | 1 | 
+| VacValves | Valves for use with the QIAvac 24 Plus | QIAGEN | 24 | Must be compatable with QIAvac 24 Plus |
+| VacConnectors | Connectors for use with the QIAvac 24 Plus | QIAGEN | 24 | Must be compatable with QIAvac 24 Plus; reusable if sterilized between use |
 | Vacuum Pump | Generic | Generic  | 1 |  |
-|  PVC Vacuum Tubing | 3/8" diameter tubing | Generic | 1 | Must be compatable with vacuum pump and QIAVac 24 Plus |
+|  PVC Vacuum Tubing | 3/8" diameter tubing | Generic | 1 | Must be compatable with vacuum pump and QIAvac 24 Plus |
 |-20°C freezer|TSX high-performance -20°C manual defrost freezer |Fisher Scientific|1|Can be substituted with generic but recommend temperature display.|
 |Pipettor: 20 - 200 μL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor.|
 |Pipettor: 100-1000 μL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor.|
@@ -187,12 +188,12 @@ For full extraction set, including 23 eDNA samples and a field blank:
 | 1000 μL pipette tips  | TipOne RPT filter tips 1000 μL | USA Scientific |220 | Can be subsituted with generic. Must be sterile and filtered. |
 | 1.5 mL tubes | Snap cap DNA LoBind 1.5 mL tubes, PCR-clean| Eppendorf |24 | Can be substituted with generic. Must be sterile. |
 | 1.5 mL gasketed cryotubes | Screw cap gasketed 1.5 mL tubes, sterile| Corning |24 | Can be substituted with generic. Must be sterile. |
-| 5 mL tubes | DNA LoBind 5 mL PCR clean centrifuge tube | Eppendorf | 24 | Can be subsituted with generic, must be sterile/PCR clean |
+| 5 mL tubes | DNA LoBind 5 mL PCR clean centrifuge tube | Eppendorf | 24 | Can be substituted with generic, must be sterile/PCR clean |
 | 50 mL falcon tubes | Falcon 50 mL high clarity conical centrifuge tube | Corning Falcon | 3 | Can be substituted with generic. Must be sterile. |
-| Sterivex/syringe caps | Male/female sterile luer caps |McKesson | 48 | Can be subsituted with generic, must be sterile and individually packaged. |
+| Sterivex/syringe caps | Male/female sterile luer caps |McKesson | 48 | Can be substituted with generic, must be sterile and individually packaged. |
 | 5 mL luer lock syringes | BD luer lock disposable syringe| BD | 24 | Can be subsituted with generic. Must be sterile and luer lock. |
 | Kimwipes | Delicate task wipes | Kimtech | 5 | Can be substituted with generic. Must be lint-free.|
-| Nitrile gloves | Powder free nitrile gloves | Fisher Scientific | 8 | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use.|
+| Nitrile gloves | Powder free nitrile gloves | Fisher Scientific | 8 | Can be subsituted with generic nitrile gloves. Does not come sterile; must be sterilized before use.|
 | Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space|
 | Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
 |Trash bags for BSC|Teivio 1.2 Gallon 360 Counts Strong Trash Bags|Teivio|3|Can be substituted with generic.|
@@ -209,24 +210,24 @@ For full extraction set, including 23 eDNA samples and a field blank:
 | Buffer AE | Qiagen Buffer AE | **Included in kit** | 2400 μL | Kit contains 120 mL - sufficient for 1200 extractions using this protocol|
 | **Chemicals** |
 | 100% molecular grade EtOH | 200 proof molecular biology grade ethanol | Fisher Scientific | 30 mL|Can be substituted with generic, must be 200 proof and molecular biology grade |
-| 70% EtOH | Molecular biology grade ethanol | 20 mL |  |
+| 70% EtOH | Molecular biology grade ethanol | Fisher Scientific |20 mL |  |
 | 10% bleach | Hypochlorite bleach | Clorox | 10 mL| Remake every ~5 days as bleach decomposes quickly at 10% concentration. The majority is used in bottle/tube sterilization.|
 
 ## STANDARD OPERATING PROCEDURE
 
 #### Preparation
 
-To minimize risk of sample contamination, this protocol should be carried out in dedicated eDNA extraction laboratories/rooms. When possible, the full dedicated lab space should be sterilized with UV.
+To minimize the risk of sample contamination, this protocol should be carried out in dedicated eDNA extraction laboratories/rooms. When possible, the full dedicated lab space should be sterilized with UV.
 
 ### Before DNA Extraction
 
-1. Run UV light for 30 minutes in BioSafety II cabinet (BSC) and room, if not run since last use.
-2. Sterilize workspaces and durable equipment, including pipettes and QIAVac exterior within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. The interior of the QIAVac should be flushed with water and then sterilized with bleach and RO water every ~10 extraction sets to avoid buildup of buffers.
-4. Set up two 50 mL tube racks, one for sterivex and one for syringes, within the BSC by lining the bottom of the rack with kimwipes then turn on the UV light for 30 minutes to sterilize.
-5. Set up QIAVac 24 Plus manifold, ensuring that the QIAvac is dry inside before use
+1. Run UV light for 30 minutes in the BioSafety II cabinet (BSC) and room, if not run since last use.
+2. Sterilize workspaces and durable equipment, including pipettes and QIAvac exterior within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. The interior of the QIAvac should be flushed with water and then sterilized with bleach and RO water every ~10 extraction sets to avoid buildup of buffers.
+4. Set up two 50 mL tube racks, one for sterivex and one for syringes, within the BSC by lining the bottom of the rack with kimwipes, then turn on the UV light for 30 minutes to sterilize.
+5. Set up the QIAvac 24 Plus manifold, ensuring that the QIAvac is dry inside before use.
 6. Turn on the heatshaker to 56°C. If the Buffer ATL has precipitate, place in heatshaker. Allow the buffer to heat until all precipitate is gone (~15 minutes), swirl as needed.
 7. Aliquot ~25 mL of 100% EtOH into a 50 mL falcon tube and store at -20°C freezer for later use.
-8. Ensure 100% molecular grade EtOH has been added to Buffer AW1 and AW2 according to the Qiagen DNeasy Blood and Tissue Kit manufacturer instructions. 
+8. Ensure 100% molecular grade EtOH has been added to Buffer AW1 and AW2 according to the Qiagen DNeasy Blood and Tissue Kit manufacturer's instructions. 
 
 **Recommended (not required)**: Aliquot Buffer AW1 and AW2 into 50 mL falcon tubes to reduce contamination caused by repeated use of large volume bottles.
 
@@ -235,14 +236,14 @@ To minimize risk of sample contamination, this protocol should be carried out in
 1. Fill a sterile, 5 mL luer lock syringe with air, remove the sterivex inlet cap and dispose. Attach the syringe to the sterivex. Remove the outlet cap but don’t dispose (place on a sterile surface face up). Use the syringe to push air slowly through the filter; KEEP THE SYRINGE. If you push air through the filter 2-3x, most liquid is removed. 
 2.  In one 50 mL tube rack, dry the sterivex filters by placing them vertically with the ‘inlet end’ facing down. Let them blot on kimwipes previously placed on the bottom of the rack. Allow to dry while completing the next few steps.
 3.  Use the saved outlet cap to seal the syringe, label it with the corresponding sample number, and place it in the other 50 mL tube rack with kimwipes.
-4. After liquid has been removed from all 24 sterivex, tap filters on separate small kimwipe to remove excess liquid post-drying. Dispose of this kimwipe and sterilize the BSC surface.
+4. After liquid has been removed from all 24 sterivex, tap filters on a separate small kimwipe to remove excess liquid post-drying. Dispose of this kimwipe and sterilize the BSC surface.
 6. Once excess ethanol has evaporated (around 30-45 minutes), reseal 4-12 sterivex at a time with their corresponding outlet cap, which is currently on the labeled 5 mL luer lock syringe. Syringes can be placed back on the 50 mL tube rack with no cap. Use a 4-way tube rack to hold sterivex for the next step.
 7. Add 720 µL Buffer ATL (pre-heated if precipitate was present) and 80 µL Proteinase K to each sterivex with the 1000 μL and 200 μL pipettes, respectively. Pipet solution between the outside of the filter and the capsule walls. Close with a new inlet cap. Handshake vigorously and/or vortex sideways.
-8. Add this batch of sterivex to the heatshaker, and complete Step 2-3 for remaining sterivex. Turn on the shaking function to 650 rpm.
+8. Add this batch of sterivex to the heatshaker, and complete Steps 2-3 for the remaining sterivex. Turn on the shaking function to 650 rpm.
 9. Incubate sterivex at 56°C for 2-3 hours. Rotate filter capsules 3-4x during incubation to ensure the entire filter surface is submerged in solution.
 10. Once all samples are removed from the BSC and inside the heatshaker, wipe down work surfaces with 10% bleach followed by 70% EtOH. Run the UV light inside the BSC for 30 minutes before samples are finished incubating.
 
-**Note**: This is a good time to pre-label your 5 mL tubes, collection tubes, and 1.5 mL tubes. Ensure that all intermediate sample containers (i.e. spin coumns, 5 mL tubes) are labeled with at least the sample number on the top. 
+**Note**: This is a good time to pre-label your 5 mL tubes, collection tubes, and 1.5 mL tubes. Ensure that all intermediate sample containers (i.e., spin columns, 5 mL tubes) are labeled with at least the sample number on the top. 
 
 10. Remove sterivex from the heatshaker and shake vigorously. 
 11. Then, remove ALL the liquid from the inlet end of the sterivex using the corresponding 5 mL luer lock syringe. Transfer to a labeled 5 mL tube. Dispose of syringe and caps. 
@@ -252,17 +253,17 @@ To minimize risk of sample contamination, this protocol should be carried out in
 15. Remove clean spin columns provided by the DNeasy Blood and Tissue kit from their collection tubes and set tubes aside for later use. Attach the spin column to the VacConnector.
 16. With all the valves closed, connect the QIAvac to the waste container and vacuum pump via 3/8" tubing and turn on the vacuum pump. Pressure should be at least -0.8 bars when the QIAvac VacValves are completely closed and at least -0.6 bars when running samples.
 17. Pipet the EtOH + buffer AL + sample mixture (max 640 µL) into a spin column. Leave the lid of the sample open.
-18. Turn the VacValve to open and allow the sample to pull through the spin column. Turn off the valve once the sample pulls through completely. Multiple samples can be vacuumed at the same time, but ensure that the pressure remains at least -0.6 bars
+18. Turn the VacValve to open and allow the sample to pull through the spin column. Turn off the valve once the sample pulls through completely. Multiple samples can be vacuumed at the same time, but ensure that the pressure remains at least -0.6 bars.
 19. Repeat steps 17-18 until the full sample volume is filtered through each spin column (takes 4-5x).
 20. Move Buffer AE to heatshaker set at 56°C to preheat for final elution. Shaking function should be turned off. 
 21. Add 500 µl Buffer AW1 to each sample and vacuum to remove liquid.
-22. Remove the spin column from the QIAvac and place in the previously saved 2 ml collection tube, add 500 µl Buffer AW2, and centrifuge for 3.5 min at 20,000 ∗ g. 
+22. Remove the spin column from the QIAvac and place it in the previously saved 2 ml collection tube, add 500 µl Buffer AW2, and centrifuge for 3.5 min at 20,000 ∗ g. 
 
-**Note**: If there is liquid between spin column and collection tube, or if the membrane touches the filtrate, move to a new collection tube and respin the sample. Record in lab notebook.
+**Note**: If there is liquid between the spin column and collection tube, or if the membrane touches the filtrate, move to a new collection tube and respin the sample. Record in lab notebook.
 
-23. Discard flow-through and collection tube. Transfer spin column to a new, labeled 1.5 mL tube with the cap open.
+23. Discard the flow-through and collection tube. Transfer the spin column to a new, labeled 1.5 mL tube with the cap open.
 24. Add 50 µl pre-heated Buffer AE onto spin column membrane. Incubate for 5 min and then centrifuge for 1 min at 6,000 ∗ g. Without discarding flow-through, repeat with another 50 µl Buffer AE, and centrifuge. Discard the spin column, as your extract is now in the 1.5 mL tube.
-25. Place extracted DNA tubes into a labeled cryobox and store in a -20°C freezer until later use. Preferably, set aside an aliquot for long term and backup storage to be archived in a -80°C freezer (see quality control for more information)
+25. Place extracted DNA tubes into a labeled cryobox and store in a -20°C freezer until later use. Preferably, set aside an aliquot for long-term and backup storage to be archived in a -80°C freezer (see quality control for more information).
 
 **Note:** Tubes containing DNA aliquots should be labeled on both the top and side with at least the sample number. OME also labels the sides of storage tubes with the cruise number and date of extraction. 
 
@@ -276,11 +277,11 @@ A negative control (field blank or extraction blank) is included in every 24 set
 
 **Issue 1:** Column clogging when pipetting sample/Buffer AL/EtOH mixture to spin columns
 
-**Solution:** If a sample is turbid, solids may survive the digestion and lysis steps. These solids can clog the spin column and trap liquid above the filter. If repeating the spin down or vacuum step does not fully drain liquid from the column, use a second fresh column for the remainder of the sample. Both spin columns are then run through the protocol and the eluted DNA is combined.
+**Solution:** If a sample is turbid, solids may survive the digestion and lysis steps. These solids can clog the spin column and trap liquid above the filter. If repeating the spin down or vacuum step does not fully drain liquid from the column, use a second fresh column for the remainder of the sample. Both spin columns are then run through the protocol, and the eluted DNA is combined.
 
 **Issue 2:** Bubbling of ATL out of sterivex upon addition
 
-**Solution 2:** If the pipette tip is improperly seated in the inlet of the sterivex when adding buffer ATL, the buffer can spray upwards out of the inlet, introducing potential contamination to other samples. Ensure that the pipette tip is fully seated inside the inlet and add buffer slowly to avoid overpressuring the sterivex. Suggest tilting the sterivex slightly to ensure the seal isn't too tigh.
+**Solution 2:** If the pipette tip is improperly seated in the inlet of the sterivex when adding buffer ATL, the buffer can spray upwards out of the inlet, introducing potential contamination to other samples. Ensure that the pipette tip is fully seated inside the inlet and add buffer slowly to avoid overpressuring the sterivex. Suggest tilting the sterivex slightly to ensure the seal isn't too tight.
 
 **Issue 3:** Liquid on sides of collection tube after centrifuge step following Buffer AW2 addition
 
