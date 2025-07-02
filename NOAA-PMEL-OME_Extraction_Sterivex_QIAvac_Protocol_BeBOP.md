@@ -27,7 +27,7 @@ samp_vol_we_dna_ext: 1000
 samp_vol_we_dna_ext_unit: mL
 nucl_acid_ext_lysis: enzymatic | thermal
 nucl_acid_ext_sep: column-based
-nucl_acid_ext: 10.5281/zenodo.15793435
+nucl_acid_ext: https://doi.org/10.5281/zenodo.15793435
 nucl_acid_ext_kit: Qiagen DNeasy Blood and Tissue Kit, 250
 nucl_acid_ext_modify: Modified for sterivex with QIAvac 24 Plus, reagent volume altered
 dna_cleanup_0_1: 0
