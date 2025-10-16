@@ -103,6 +103,7 @@ nucl_acid_ext_method_additional: not applicable
 |NOAA|National Oceanic and Atmospheric Administration|
 |OME	|Ocean Molecular Ecology|
 |PCR| Polymerase chain reaction |
+|PES|Polyethersulfone|
 |PMEL	|Pacific Marine Environmental Laboratory|
 |PPE| Personal protective equipment |
 |RO| Reverse Osmosis|
@@ -121,7 +122,7 @@ nucl_acid_ext_method_additional: not applicable
 
 ## BACKGROUND
 
-This document describes the required protocol to extract DNA from a sterivex filter using a QIAvac 24 Plus. This protocol was introduced to our repertoire because the QIAvac 24 Plus reduces the processing time by 1-1.5 hours; however, we've only used this protocol for a small subset of samples due to issues encountered with QIAvac cleaning and contamination.
+This document describes the required protocol to extract DNA from a 0.22 µm PES sterivex filter using a QIAvac 24 Plus. This protocol was introduced to our repertoire because the QIAvac 24 Plus reduces the processing time by 1-1.5 hours; however, we've only used this protocol for a small subset of samples due to issues encountered with QIAvac cleaning and contamination.
 
 ### Summary
 
