@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 	420
 personnel_required: 1
 language: en
-issued:	2025-10-06
+issued:	2025-11-06
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -75,8 +75,8 @@ nucl_acid_ext_method_additional: not applicable
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.4  |2025-10-06|Internal |
-| NOAA-PMEL-OME-Qubit-Quantification-Protocol| https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md | 1.0.1  | 2025-10-06 | Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.4  |2025-11-06|Internal |
+| NOAA-PMEL-OME-Qubit-Quantification-Protocol| https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md | 1.0.1  | 2025-11-06 | Internal |
 | Spens et al. 2017 |https://doi.org/10.1111/2041-210X.12683 | 1.0.0  | 2016-11-15  | External |
 
 ### Protocol Revision Record
@@ -89,7 +89,7 @@ nucl_acid_ext_method_additional: not applicable
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2025-07-02 | Initial release |
 | 1.0.1 | 2025-07-02 | Added references to freshwater samples |
-| 1.2.0 | 2025-10-06 | FAIRe updates, spelling/grammar revisions, and minor content changes |
+| 1.2.0 | 2025-11-06 | FAIRe updates, spelling/grammar revisions, and minor content changes |
 
 ### Acronyms and Abbreviations
 
@@ -144,7 +144,7 @@ One person with molecular biology experience.
 
 ### Safety
 
-Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. For other reagents, standard precautions, including wearing PPE, should be taken to avoid skin and eye exposure to chemicals. When cleaning the QIAvac, ensure that bleach is not used on the interior surfaces until it has been thoroughly flushed with water to avoid creating hydrogen cyanide gas with waste residue.
+Buffer AW1 from the DNeasy Blood & Tissue Kit contains guanidine hydrochloride and is classified as category 4 for acute toxicity [(Safety Data Sheet)](https://www.qiagen.com/binary/resource/sds/800000000214-en-GB-IE--1/214-BufferAW1-en-GB-IE--1.00000.pdf). Additional care should be taken when working with this buffer. This protocol also uses bleach and ethanol, both of which are classified as hazardous chemicals. Appropriate PPE must be worn, and standard safety procedures should be followed to avoid skin and eye exposure. When cleaning the QIAvac, ensure that bleach is not used on the interior surfaces until it has been thoroughly flushed with water to avoid creating hydrogen cyanide gas with waste residue.
 
 ### Training Requirements
 
