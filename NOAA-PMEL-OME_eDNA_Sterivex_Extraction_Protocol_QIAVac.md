@@ -15,10 +15,10 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 	420
 personnel_required: 1
 language: en
-issued:	2025-11-06
+issued:	2025-11-12
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-hasVersion: 1
+hasVersion: 1.2.0
 license: CC0 1.0 Universal
 maturity level: mature
 
@@ -33,7 +33,8 @@ nucl_acid_ext_modify: Modified for sterivex with QIAvac 24 Plus, reagent volume 
 dna_cleanup_0_1: 0
 dna_cleanup_method: not applicable
 concentration: not applicable
-concentration_method: not applicable
+concentration_unit: ng/µl
+concentration_method: Qubit Fluorometer v.4 dsDNA high sensitivity kit
 ratioOfAbsorbance260_280: not applicable
 pool_dna_num: not applicable
 nucl_acid_ext_method_additional: not applicable
@@ -75,8 +76,8 @@ nucl_acid_ext_method_additional: not applicable
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.4  |2025-11-06|Internal |
-| NOAA-PMEL-OME-Qubit-Quantification-Protocol| https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md | 1.0.1  | 2025-11-06 | Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.4  |2025-11-12|Internal |
+| NOAA-PMEL-OME-Qubit-Quantification-Protocol| https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md | 1.0.1  | 2025-11-12 | Internal |
 | Spens et al. 2017 |https://doi.org/10.1111/2041-210X.12683 | 1.0.0  | 2016-11-15  | External |
 
 ### Protocol Revision Record
@@ -89,7 +90,7 @@ nucl_acid_ext_method_additional: not applicable
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2025-07-02 | Initial release |
 | 1.0.1 | 2025-07-02 | Added references to freshwater samples |
-| 1.2.0 | 2025-11-06 | FAIRe updates, spelling/grammar revisions, and minor content changes |
+| 1.2.0 | 2025-11-12 | FAIRe updates, spelling/grammar revisions, and minor content changes |
 
 ### Acronyms and Abbreviations
 
