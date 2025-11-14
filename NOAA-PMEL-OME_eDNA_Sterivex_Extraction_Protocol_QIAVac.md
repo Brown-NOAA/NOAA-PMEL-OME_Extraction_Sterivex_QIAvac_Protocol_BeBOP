@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 	420
 personnel_required: 1
 language: en
-issued:	2025-11-12
+issued:	2025-11-14
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1.2.0
@@ -76,8 +76,8 @@ nucl_acid_ext_method_additional: not applicable
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.4  |2025-11-12|Internal |
-| NOAA-PMEL-OME-Qubit-Quantification-Protocol| https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md | 1.0.1  | 2025-11-12 | Internal |
+| NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge | https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md | 1.1.4  |2025-11-14| Internal |
+| NOAA-PMEL-OME-Qubit-Quantification-Protocol| https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md | 1.0.1  | 2025-11-14 | Internal |
 | Spens et al. 2017 |https://doi.org/10.1111/2041-210X.12683 | 1.0.0  | 2016-11-15  | External |
 
 ### Protocol Revision Record
@@ -90,7 +90,7 @@ nucl_acid_ext_method_additional: not applicable
 | ------------- | ------------- | ------------- |
 | 1.0.0 | 2025-07-02 | Initial release |
 | 1.0.1 | 2025-07-02 | Added references to freshwater samples |
-| 1.2.0 | 2025-11-12 | FAIRe updates, spelling/grammar revisions, and minor content changes |
+| 1.2.0 | 2025-11-14 | FAIRe updates, spelling/grammar revisions, and minor content changes |
 
 ### Acronyms and Abbreviations
 
@@ -299,4 +299,4 @@ Spens, J., Evans, A. R., Halfmaerten, D., Knudsen, S. W., Sengupta, M. E., Mak, 
 
 ## APPENDIX A: DATASHEETS
 
-[OME_Extraction_Protocol_Sterivex_Centrifuge_ProtocolSheet_Draft1](https://docs.google.com/spreadsheets/d/1eV9ZGLAssunCY_ozVOMbVEWWGrlosp8IkIpnyM1dDEU/edit?pli=1#gid=0)
+[OME_Extraction_Protocol_Sterivex_Centrifuge_ProtocolSheet](https://docs.google.com/spreadsheets/d/1eV9ZGLAssunCY_ozVOMbVEWWGrlosp8IkIpnyM1dDEU/edit?pli=1#gid=0)
