@@ -1,5 +1,5 @@
 # NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15793436.svg)](https://doi.org/10.5281/zenodo.15793436)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17655184.svg)](https://doi.org/10.5281/zenodo.17655184)
 
 See [NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP](https://github.com/Brown-NOAA/NOAA-PMEL-OME_Extraction_Sterivex_QIAvac_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_QIAVac.md) for detailed protocol.  
 
